@@ -1,0 +1,19 @@
+{
+	"name": "my-vue",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build:dev": "rollup -c",
+		"serve": "cross-env ENV=development rollup -c -w"
+	},
+	"author": "jiawei.zhou <18720989328@163.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.9.6",
+		"@babel/preset-env": "^7.9.6",
+		"cross-env": "^7.0.2",
+		"rollup": "^2.10.2",
+		"rollup-plugin-babel": "^4.4.0",
+		"rollup-plugin-serve": "^1.0.1"
+	}
+}
